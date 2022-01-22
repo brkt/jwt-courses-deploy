@@ -11,6 +11,9 @@ public class Course {
    private Integer id;
    private String name;
    private String objectives;
+   public Course(){
+
+   }
 
    public Course( String name, String objectives) {
       this.name = name;
